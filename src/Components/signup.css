@@ -1,0 +1,95 @@
+.img-signup {
+  width: 500px;
+  height: 600px;
+}
+.txt {
+  margin-right: 55px;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+.inp-css {
+  margin-top: 32px;
+  margin-left: 112px;
+}
+.txt-2 {
+  align-items: center;
+  text-align: center;
+  font-family: "PP Cirka";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  margin-top: 20px;
+}
+.social-media-google {
+  width: 30px;
+  height: 30px;
+  margin-left: 205px;
+}
+.social-media-linkedin {
+  width: 30px;
+  height: 30px;
+}
+.social-btn {
+  padding: 0;
+  border: none;
+  background: none;
+}
+.social-tab {
+}
+.sign-btn {
+  margin-top: 60px;
+  margin-left: 195px;
+}
+/* .mar {
+  margin: 5rem 5rem 5rem 5rem;
+} */
+.butto-2 {
+  /* Button */
+
+  box-sizing: border-box;
+  font-family: "Roboto Mono", monospace;
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 18px;
+  gap: 10px;
+
+  width: 309px;
+  height: 41px;
+
+  background: #ffffff;
+  border: 1px solid #000000;
+  box-shadow: -4px 4px 0px #000000;
+  outline: none !important;
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 1;
+}
+.btn-2-su {
+  /* Rectangle 1 */
+
+  position: absolute;
+
+  /* Fallback */
+  background: #1D1E5F;
+  width: 140px;
+  height: 50px;
+  font-size: 10px;
+  color: white;
+  font-weight: 500;
+  border: none;
+  /* Cut the corner */
+  background: linear-gradient(-45deg, transparent 7px, #4598d0 7px);
+  transition: background 2s ease;
+}
