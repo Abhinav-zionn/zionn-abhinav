@@ -58,7 +58,7 @@ const Signup = () => {
   };
   const { linkedInLogin } = useLinkedIn({
     clientId: "77qisj69i1ypcb",
-    // redirectUri: `${window.location.origin}/linkedin`, // for Next.js, you can use `${typeof window === 'object' && window.location.origin}/linkedin`
+    redirectUri: `${window.location.origin}/linkedin`, // for Next.js, you can use `${typeof window === 'object' && window.location.origin}/linkedin`
     onSuccess: (code) => {
       console.log(code);
     },
